@@ -1,0 +1,270 @@
+/*
+    Everforest Userstyle for github.com
+    by Theory_of_Everything
+
+    repo:    https://github.con/theory-of-everything/everforest-userstyles-css
+    mirror:  https://notabug.org/Theory_of_Everything/everforest-userstyles-css
+
+    ALL CODE HERE IS LICENCED UNDER THE GNU GPLv3 LICENSE
+*/
+
+:root {
+    --bg0: #2b3339;
+    --bg1: #323c41;
+    --bg2: #3a454a;
+
+    --fg0: #d3c6aa;
+    --green: #a7c080;
+    --tags-fg: #a7c08012;
+
+    --draw0: #248734;
+    --draw1: #2ba03e;
+    --draw2: #32ba48;
+    --draw3: #39d353;
+    
+    --color-scale-gray-9: #2b3339 !important;
+    
+}
+
+html {
+    background-color: var(--bg0);
+}
+
+/* Forced fg Colors */
+/* --------------------------- */
+p, body, body.color-text-primary, span.color-text-primary, span.css-truncate-target, span.d-none, summary.btn, span.text-bold, .Link--primary, a.Header-link, a.markdown-title, span.ml-1, a.btn, a.btn-primary, a, span, .Link--muted, button.btn-sm, svg, svg.octicon, a.ml-1, a.color-text-primary, a.btn-mktg, div.application-main, h4.color-text-primary, .ajax-pagination-form, .ajax-pagination-btn, button.js-profile-editable-edit-button, kbd, button.btn-link, button.dropdown-item, summary.f6, button.btn-primary, summary.HeaderMenu-summary, h1 {
+    color: var(--fg0) !important;
+}
+
+a.btn-primary:hover, summary.btn:hover, a.subnav-item, button.btn-primary, .form-control:focus {
+    background-color: var(--bg1);
+    border-color: var(--fg0) !important;
+}
+
+/* Forced bg Colors */
+/* --------------------------- */
+div.col-md-8, input.form-control, a.btn, button.btn, input.btn, div.p-3, div.Popover-Message, .Popover-Message.Box, .Popover, div.Popover.color-shadow-large, div.js-hovercard-content,
+div.Popover-message--large, div.content-absolute, d, main, a.social-count {
+    background-color: var(--bg0);
+    border-color: var(--bg0);
+}
+input, th, td, div.js-pinned-items-reorder-container, pre, body, kbd, li.Box-row, .TimelineItem--condensed, .Link--muted {
+    background-color: var(--bg0) !important;
+}
+
+.Footer, div.MarketplaceBackground-buffer, .Box {
+    background-color: var(--bg0);
+}
+
+.color-border-secondary, div.mtb-4, details-menu.Select-Menu, div.SelectMenu-modal, #filter-menu-3ab464, a.SelectMenu-item {
+    border-color: var(--bg0) !important;
+}
+
+div.dashboard-sidebar, div.Box, label.input-sm, form.Box, .hx_page-header-bg, summary.btn, img {
+    background-color: var(--bg1);
+}
+
+.color-bg-secondary, li.notifications-list-item.notification-read, .subnav-search-input, div.graph-before-activity-overview, .Box-body, span.color-bg-canvas, button.contribution-activity-show-more, img, textarea, #user_profile_name, #user_profile_email, #user_profile_blog, #user_profile_twitter_username, #user_profile_company, #user_profile_location, button.btn-danger, div.auth-form-body {
+    background-color: var(--bg1) !important;
+}
+
+
+th, td, div.auth-form-body {
+    border-color: var(--bg1) !important;
+}
+
+.UnderlineNav-item.selected, .UnderlineNav-item[role=tab][aria-selected=true], .UnderlineNav-item[aria-current]:not([aria-current=false]) {
+    border-radius: 5px !important;
+    border-bottom-color: var(--fg0);
+}
+
+div.TimelineItem-badge, span.menu-heading, a.menu-item, a.tooltipped-sw, input.btn-block {
+    background-color: var(--bg1) !important;
+    border-color: var(--bg2);
+}
+
+a.f6 {
+   background-color: var(--bg0);
+   border-color: var(--bg2); 
+}
+
+li.Box-row, .TimelineItem--condensed, .Box {
+    border-color: var(--bg2) !important;
+    border: 1px !important;
+}
+
+.TimelineItem::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 2px;
+    content: "";
+    background-color: var(--bg1);
+}
+
+.Box-row--focus-gray.navigation-focus, div.Box-header, .color-bg-primary, div.application-main, .user-status-circle-badge, a.tabnav-tab, details-menu, li.notifications-list-item.notification-unread, div.AvatarStack-body, .color-bg-tertiary, details-menu.Select-Menu, div.SelectMenu-modal, #filter-menu-3ab464, a.SelectMenu-item {
+    background-color: var(--bg2) !important;
+}
+details-menu.dropdown-menu-sw {
+    color: var(--bg2) !important;
+    border-bottom-color: var(--bg2) !important;
+}
+
+.Header, header.Header-old {
+    background-color: var(--bg2) !important;
+}
+
+div.border-bottom, div.d-flex, div.flex-items-baseline, button.js-profile-editable-edit-button {
+    border-color: var(--bg2) !important;
+}
+
+
+/* Naviation item colors*/
+/* --------------------------- */
+.subnav-item.selected, .subnav-item[aria-selected=true], .subnav-item[aria-current]:not([aria-current=false]), .navigation-item[aria-selected=true], div.jump-to-suggestions {
+    background-color: var(--bg2) !important;
+    border-color: var(--fg0);
+    color: var(--fg0) !important;
+}
+button.BtnGroup-item, a.selected {
+    background-color: var(--bg1) !important;
+    color: var(--fg0) !important;
+}
+
+.top-0 {
+    padding-top: 24px;
+    margin-top: 0px !important;
+}
+
+.mt-6 {
+    padding-top: 0px;
+}
+
+a.btn-link, button.selected {
+    background-color: var(--bg2) !important;
+}
+a.dropdown-item:hover, button.btn-link:hover, button.dropdown-signout:hover {
+    background-color: var(--bg1) !important;
+}
+
+button.BtnGroup-item:hover {
+    border-color: var(--fg0);
+}
+
+.subnav-primary.selected {
+    border-bottom-color: var(--fg0) !important;
+}
+
+.subnav-item:hover {
+    background-color: var(--bg0);
+}
+
+a.filter-item:hover {
+    background-color: var(--bg1);
+}
+
+.jump-to-suggestions-results-container [aria-selected=true] .jump-to-suggestions-path, .jump-to-suggestions-results-container .navigation-focus .jump-to-suggestions-path {
+    background-color: var(--bg2) !important;
+}
+
+.Link--primary:hover, .Link--secondary:hover, a.Link--muted:hover, span.ws-normal:hover {
+    color: var(--green) !important;
+}
+
+.subnav-link.selected, a.selected {
+    font-weight: 500;
+    background-color: var(--bg2) !important;
+    color: var(--fg0) !important;
+}
+
+summary.btn-primary:hover {
+    color: #000000 !important;
+}
+
+summary.btn-sm {
+    background-color: var(--bg0) !important;
+    border-color: var(--bg0);
+}
+
+.notifications-list-item:hover {
+    background-color: var(--fg0) !important;
+    box-shadow: 2px 0 0 var(--fg0) inset;
+}
+.notifications-list-item.notification-unread .notification-list-item-unread-indicator {
+    background-color: var(--fg0) !important;
+}
+span.unread {
+    background-image: linear-gradient(var(--fg0), var(--bg2)) !important;
+    border: 1px solid var(--bg0) !important;
+}
+
+/* graphs */
+/* --------------------------- */
+.ContributionCalendar-day, .ContributionCalendar-day[data-level="0"] {
+    fill: var(--bg0);
+    shape-rendering: geometricPrecision;
+    outline: 1px solid var(--color-calendar-graph-day-border);
+    outline-offset: -1px;
+}
+.ContributionCalendar-day, .ContributionCalendar-day[data-level="1"] {
+    fill: var(--draw0);
+    outline: 1px solid var(--color-calendar-graph-day-border);
+}
+
+.ContributionCalendar-day, .ContributionCalendar-day[data-level="2"] {
+    fill: var(--draw1);
+    outline: 1px solid var(--color-calendar-graph-day-border);
+}
+.ContributionCalendar-day, .ContributionCalendar-day[data-level="3"] {
+    fill: var(--draw2);
+    outline: 1px solid var(--color-calendar-graph-day-border);
+}
+.ContributionCalendar-day, .ContributionCalendar-day[data-level="4"] {
+    fill: var(--draw3);
+    outline: 1px solid var(--color-calendar-graph-day-border);
+}
+.activity-overview-axis, .activity-overview-point {
+    stroke: var(--draw3);
+}
+
+
+/* Misc */
+/* --------------------------- */
+.topic-tag, div.color-bg-info, .Counter, span.Labelm, summary.verified {
+    background-color: var(--tags-fg) !important;
+}
+
+summary.verified {
+    color: var(--green) !important;
+}
+
+circle {
+    stroke: var(--green);
+    stroke-width: 2;
+    stroke-dasharray: 31;
+    stroke-dashoffset: 6;
+    stroke-linecap: round;
+    fill: transparent;
+    cx: 50%;
+    cy: 50%;
+    r: 5;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.AvatarStack-body:not(:hover) {
+    background-color: transparent !important;
+}
+
+div.js-profile-timeline-year-list {
+    padding-left: 32px !important;
+    background-color: var(--bg0) !important;
+}
+
+.MarketplaceBackground-recommendations img {
+    width: 0px;
+}

@@ -1,0 +1,110 @@
+/*
+    Everforest Userstyle for notabug.org
+    by Theory_of_Everything
+
+    repo:    https://github.con/theory-of-everything/everforest-userstyles-css
+    mirror:  https://notabug.org/Theory_of_Everything/everforest-userstyles-css
+
+    ALL CODE HERE IS LICENCED UNDER THE GNU GPLv3 LICENSE
+*/
+
+/* Color definitions */
+:root {
+    /* ui colors */
+    --bg0: #2b3339;
+    --bg1: #323c41;
+    --bg2: #3a454a;
+    --fg0: #d3c6aa;
+    --green: #a7c080;
+    --tags-fg: #a7c08012;
+
+    /* code content colors */
+}
+
+* {
+    border: 0px solid #000000 !important;
+}
+
+/* fg colors */
+/* ----------------------------- */
+li, strong, a, a.item, a.ui, a.button, span, svg, i, a.button, a.basic, .ui.basic.button, div.fork-flag, div.divider, #repo-clone-url, h1, h2, h3, div, label, input, textarea, input[type=checkbox], label:before, .ui.dropdown.item, .ui.dropdown, .ui.menu, .ui.dropdown.item, .menu, h4.header, code {
+    color: var(--fg0) !important;
+}
+
+a:hover, tbody {
+    color: var(--green) !important;
+}
+
+.ui.menu .ui.dropdown .menu > .item, .ui.menu .ui.dropdown .menu > .active.item  {
+    color: var(--fg0)!important;
+}
+
+.top.menu a.item:hover, .dropdown.item:hover {
+    background-color: var(--bg1) !important;
+    color: var(--fg0) !important;
+}
+
+button.blue {
+    background-color: var(--fg0) !important;
+    color: var(--bg0) !important;
+}
+
+
+a.active, .ac {
+    border: 1px solid var(--fg0) !important;
+}
+
+/* bg colors */
+/* ----------------------------- */
+div.menu {
+    background-color: #00000000
+}
+
+body, .explore, pre, div.middle, a.ui:hover, div.code-view, a.sha, input, textarea, input[type=checkbox], label:before {
+    background-color: var(--bg0) !important;
+}
+
+.ui.menu {
+    background-color: var(--bg0);
+}
+
+footer, div.content, div.popup, .ui.bottom.left.popup, .ui.vertical.menu, div.markdown, a.active.item, a.basic, #repo-clone-url, .ui.basic.button:hover, .ui.attached.table, li, a.button, div.small, div.button, .ui.basic.button, .active.item, div.top, div.segment {
+    background-color: var(--bg1) !important;
+}
+
+.repository.file.list #repo-files-table {
+    background-color: var(--bg1);
+}
+
+#header-div, div.transition, .header.item, div.header-wrapper, th.wide, #git-stats, #repo-readme, td.lines-num, td.lines-code, #repo-read-file, h4.header, h3.header, div.owner, tr:hover, div.top {
+    background-color: var(--bg2) !important;
+}
+
+.following.bar.light, h4.ui {
+    border-bottom: 1px solid var(--bg0);
+}
+
+.notabug-item:hover, .notabug-item:hover {
+    background-color: var(--bg1) !important;
+    color: var(--fg0) !important;
+}
+
+/* Misc stuff */
+/* ----------------------------------------------- */
+#repo-read-file, .ui.attached.table, footer, div.card, div.content, .ui.checkbox {
+    border: 1px solid var(--bg0) !important;
+}
+
+.ui.card {
+    border: 1px soldid var(--bg0);
+    background: var(--bg0) !important;
+    box-shadow: 0 0px;
+}
+
+.ui.menu:hover .ui.dropdown:hover .menu > .item:hover {
+    color: var(--green)!important;
+}
+
+div.container {
+    margin-top: 10px;
+}

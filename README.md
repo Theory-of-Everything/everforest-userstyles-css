@@ -8,6 +8,8 @@ If you find something not styled correctly or if you have some issues, feel free
 	- 80% (ish) complete
 - [notabug.org](https://notabug.org)
 	- 96% complete (finished for the most part)
+- [duckduckgo.com](duckduckgo.com)
+	- 20% complete (certain dynamic elements have not been themed yet)
 
 ### Installation:
 To use these themes in your browser, you need something that will inject css styling. For Chromium-based and Firefox-based web browsers, you can use the [stylus](https://github.com/openstyles/stylus)

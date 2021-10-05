@@ -1,0 +1,65 @@
+/*
+    Everforest Userstyle for duckduckgo.com
+    by Theory_of_Everything
+
+    repo:    https://github.con/theory-of-everything/everforest-userstyles-css
+    mirror:  https://notabug.org/Theory_of_Everything/everforest-userstyles-css
+
+    ALL CODE HERE IS LICENCED UNDER THE GNU GPLv3 LICENSE
+*/
+
+:root {
+    --bg0: #2b3339;
+    --bg1: #323c41;
+    --bg2: #3a454a;
+
+    --fg0: #d3c6aa;
+    --green: #a7c080;
+    --tags-fg: #a7c08012;
+
+    --draw0: #248734;
+    --draw1: #2ba03e;
+    --draw2: #32ba48;
+    --draw3: #39d353;
+    
+    --color-scale-gray-9: #2b3339 !important;
+    
+}
+
+/* bg colors */
+/* --------------------------------- */
+*, svg {
+    color: var(--fg0) !important;
+}
+
+/* bg colors */
+/* --------------------------------- */
+div.cw, div.footer {
+    background-color: var(--bg0);
+}
+
+#search_form, input, div.module, div.module__toggle--more, a.js-images-show-more {
+    background-color: var(--bg1) !important;
+}
+
+#header_wrapper, #header {
+    background-color: var(--bg2) !important;
+}
+
+/* misc */
+/* --------------------------------- */
+input, .search--header, div.module {
+    box-shadow: 0 0px 0px !important;
+}
+
+div.modult__toggle--more {
+    border: 1px 1px 1px 1px var(--bg2) !important;
+}
+
+div.module--images {
+    padding: 10px 10px 10px 10px;
+}
+
+.search-filters-wrap:before, .search-filters-wrap:after {
+    background-image: var(--bg0);
+}

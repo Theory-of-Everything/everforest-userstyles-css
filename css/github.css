@@ -44,7 +44,7 @@ a.btn-primary:hover, summary.btn:hover, a.subnav-item, button.btn-primary, .form
 /* Forced bg Colors */
 /* --------------------------- */
 div.col-md-8, input.form-control, a.btn, button.btn, input.btn, div.p-3, div.Popover-Message, .Popover-Message.Box, .Popover, div.Popover.color-shadow-large, div.js-hovercard-content,
-div.Popover-message--large, div.content-absolute, d, main, a.social-count {
+div.Popover-message--large, div.content-absolute, d, main, a.social-count, div.copyable-terminal {
     background-color: var(--bg0);
     border-color: var(--bg0);
 }
@@ -104,7 +104,7 @@ li.Box-row, .TimelineItem--condensed, .Box {
     background-color: var(--bg1);
 }
 
-.Box-row--focus-gray.navigation-focus, div.Box-header, .color-bg-primary, div.application-main, .user-status-circle-badge, a.tabnav-tab, details-menu, li.notifications-list-item.notification-unread, div.AvatarStack-body, .color-bg-tertiary, details-menu.Select-Menu, div.SelectMenu-modal, #filter-menu-3ab464, a.SelectMenu-item {
+.Box-row--focus-gray.navigation-focus, div.Box-header, .color-bg-primary, div.application-main, .user-status-circle-badge, a.tabnav-tab, details-menu, li.notifications-list-item.notification-unread, div.AvatarStack-body, .color-bg-tertiary, details-menu.Select-Menu, div.SelectMenu-modal, #filter-menu-3ab464, a.SelectMenu-item, div.Box-row {
     background-color: var(--bg2) !important;
 }
 details-menu.dropdown-menu-sw {
@@ -267,4 +267,16 @@ div.js-profile-timeline-year-list {
 
 .MarketplaceBackground-recommendations img {
     width: 0px;
+}
+
+.Box-row:first-of-type {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+div.Box-header {
+    border-color: transparent !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 0px;
+    margin: 0px 0px 0px 0px;
 }
